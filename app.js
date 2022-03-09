@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 
 app.get('/:a1/:a2', (req, res) => {
 
-    res.send(req.params.a1 + " " + req.params.a2);
+    res.send(req.params.a1 + " <em>-</em> " + req.params.a2);
 
 });
 
